@@ -1,0 +1,40 @@
+Tue Aug 11 00:05:20.981 2020 INFO  <THREADID: 445> <USER: ram> <MSG: Logged in>
+Tue Aug 11 00:05:59.881 2020 INFO  <THREADID: 445> <USER: ram> <MSG: Value of data is 353452>
+Tue Aug 11 00:06:20.981 2020 INFO  <THREADID: 445> <USER: ram> <MSG: Logged out>
+Tue Aug 11 00:06:20.991 2020 INFO  <THREADID: 545> <USER: amit> <MSG: Logged in>
+Tue Aug 11 00:07:59.882 2020 INFO  <THREADID: 845> <USER: sam> <MSG: Logged in>
+Tue Aug 11 00:07:59.882 2020 ERROR  <THREADID: 345> <USER: tom> <MSG:Exception occured>
+com.bmc.arsys.domain.etc.ARException: ERROR (346): Active link does not exist on server; Specified object cannot be modified in overlay mode set. "CFG:CSN:PushToQueueFromConsole"(overlayGroup 0)
+	at com.bmc.arsys.server.domain.validation.MetadataDefValidatorImpl.verifyExistingObjectOverlayGroup(MetadataDefValidatorImpl.java:440)
+	at com.bmc.arsys.server.domain.validation.workflow.ActiveLinkValidatorImpl.validateSetActiveLink(ActiveLinkValidatorImpl.java:156)
+Tue Aug 11 00:1:20.881 2020 INFO  <THREADID: 447> <USER: ram> <MSG: Logged in>
+Tue Aug 11 00:08:20.981 2020 INFO  <THREADID: 447> <USER: ram> <MSG: Value of data is 353455>
+Tue Aug 11 00:08:20.995 2020 INFO  <THREADID: 545> <USER: amit> <MSG: Performed PIN check>
+Tue Aug 11 00:08:21.995 2020 INFO  <THREADID: 845> <USER: sam> <MSG: Logged out>
+Tue Aug 11 00:08:21.995 2020 INFO  <THREADID: 545> <USER: amit> <MSG: Logged out>
+Tue Aug 11 00:08:59.882 2020 INFO  <THREADID: 845> <USER: sam> <MSG: Logged in>
+Tue Aug 11 00:09:20.995 2020 INFO  <THREADID: 545> <USER: sam> <MSG: Performed PIN check>
+Tue Aug 11 00:09:21.882 2020 ERROR  <THREADID: 345> <USER: tom> <MSG:Exception occured>
+com.bmc.arsys.domain.etc.ARException: ERROR (346): Active link does not exist on server; Specified object cannot be modified in overlay mode set. "CFG:CSN:PushToQueueFromConsole"(overlayGroup 0)
+	at com.bmc.arsys.server.domain.validation.MetadataDefValidatorImpl.verifyExistingObjectOverlayGroup(MetadataDefValidatorImpl.java:440)
+	at com.bmc.arsys.server.domain.validation.workflow.ActiveLinkValidatorImpl.validateSetActiveLink(ActiveLinkValidatorImpl.java:156)
+Tue Aug 11 00:10:10.882 2020 INFO  <THREADID: 447> <USER: ram> <MSG: Logged out>
+Tue Aug 11 00:10:10.882 2020 INFO  <THREADID: 845> <USER: sam> <MSG: Logged out>
+Tue Aug 12 00:06:20.991 2020 INFO  <THREADID: 545> <USER: amit> <MSG: Logged in>
+Tue Aug 12 00:07:59.882 2020 INFO  <THREADID: 845> <USER: sam> <MSG: Logged in>
+Tue Aug 12 00:07:59.882 2020 ERROR  <THREADID: 345> <USER: alex> <MSG:Exception occured>
+com.bmc.arsys.domain.etc.ARException: ERROR (346): Active link does not exist on server; Specified object cannot be modified in overlay mode set. "CFG:CSN:PushToQueueFromConsole"(overlayGroup 0)
+	at com.bmc.arsys.server.domain.validation.MetadataDefValidatorImpl.verifyExistingObjectOverlayGroup(MetadataDefValidatorImpl.java:440)
+	at com.bmc.arsys.server.domain.validation.workflow.ActiveLinkValidatorImpl.validateSetActiveLink(ActiveLinkValidatorImpl.java:156)
+Tue Aug 12 00:08:20.881 2020 INFO  <THREADID: 845> <USER: tom> <MSG: Logged in>
+Tue Aug 12 00:08:20.981 2020 INFO  <THREADID: 845> <USER: tom> <MSG: Value of data is is 353452>
+Tue Aug 12 00:08:20.995 2020 INFO  <THREADID: 545> <USER: amit> <MSG: Performed PIN check>
+Tue Aug 12 00:08:21.995 2020 INFO  <THREADID: 845> <USER: sam> <MSG: Logged out>
+Tue Aug 12 00:08:21.995 2020 INFO  <THREADID: 545> <USER: amit> <MSG: Logged out>
+Tue Aug 12 00:08:59.882 2020 INFO  <THREADID: 945> <USER: tom> <MSG: Logged in>
+Tue Aug 12 00:09:20.995 2020 INFO  <THREADID: 945> <USER: tom> <MSG: Performed PIN check>
+Tue Aug 12 00:09:21.882 2020 ERROR  <THREADID: 345> <USER: alex> <MSG:Exception occured>
+com.bmc.arsys.domain.etc.ARException: ERROR (346): Active link does not exist on server; Specified object cannot be modified in overlay mode set. "CFG:CSN:PushToQueueFromConsole"(overlayGroup 0)
+	at com.bmc.arsys.server.domain.validation.MetadataDefValidatorImpl.verifyExistingObjectOverlayGroup(MetadataDefValidatorImpl.java:440)
+	at com.bmc.arsys.server.domain.validation.workflow.ActiveLinkValidatorImpl.validateSetActiveLink(ActiveLinkValidatorImpl.java:156)
+Tue Aug 12 00:10:10.882 2020 INFO  <THREADID: 945> <USER: sam> <MSG: Logged out>
